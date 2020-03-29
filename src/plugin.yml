@@ -1,0 +1,15 @@
+name: AutoPath
+version: 1.0
+author: sl4v
+description: Automatically create paths
+website: sl4vkek.github.io
+api-version: 1.15
+main: me.sl4v.autopath.AutoPath
+commands:
+  AutoPath:
+    description: Enable or disable AutoPath
+    usage: /<command>
+    aliases: [autopath]
+  AutoPathMaterial:
+    description: Set block types for AutoPath
+    usage: /<command> [BLOCK 1] [BLOCK 2] [BLOCK 3]
